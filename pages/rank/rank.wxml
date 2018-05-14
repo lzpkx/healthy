@@ -1,0 +1,220 @@
+<view class='home'>
+
+  <view class='up-container'>
+    <view class='head1'>
+      <image class='avater1' src="/images/1.jpg" background-size="cover"></image>
+      <text class="userinfo-nickname">鸭子</text>
+      <view class='dianzhan1'>
+        <image class='nice' src='/images/white_good.png'></image>
+        <text>3235</text>
+      </view>
+    </view>
+    <view class='head2'>
+      <image class='avater2' src="/images/0.jpg" background-size="cover"></image>
+      <text class="userinfo-nickname">小姑娘</text>
+      <view class='dianzhan2'>
+        <image class='nice' src='/images/blue_good.png'></image>
+        <text>3235</text>
+      </view>
+    </view>
+    <view class='head3'>
+      <image class='avater3' src="/images/2.jpg" background-size="cover"></image>
+      <text class="userinfo-nickname">混沌</text>
+      <view class='dianzhan3'>
+        <image class='nice' src='/images/white_good.png'></image>
+        <text>3235</text>
+      </view>
+    </view>
+  </view>
+
+  <scroll-view scroll-y class='list-container'>
+    <view class='list-item'>
+      <view class='items'>
+        <text class='text-number'>4</text>
+        <image class='mini-img' src='/images/0.jpg'></image>
+        <view class='message'>
+          <text class='tx1'>画虎烂</text>
+          <text class='tx2'>已经坚持瘦身123天</text>
+        </view>
+        <!-- 空白撑开 -->
+        <view class='nothing'></view>
+
+        <view class='dianzan-list'>
+          <image class='good' src='/images/white_good.png'></image>
+          <text>3235</text>
+        </view>
+      </view>
+
+    </view>
+
+
+ <view class='list-item'>
+      <view class='items'>
+        <text class='text-number'>4</text>
+        <image class='mini-img' src='/images/0.jpg'></image>
+        <view class='message'>
+          <text class='tx1'>画虎烂</text>
+          <text class='tx2'>已经坚持瘦身123天</text>
+        </view>
+        <!-- 空白撑开 -->
+        <view class='nothing'></view>
+
+        <view class='dianzan-list'>
+          <image class='good' src='/images/white_good.png'></image>
+          <text>3235</text>
+        </view>
+      </view>
+
+    </view>
+
+     <view class='list-item'>
+      <view class='items'>
+        <text class='text-number'>4</text>
+        <image class='mini-img' src='/images/0.jpg'></image>
+        <view class='message'>
+          <text class='tx1'>画虎烂</text>
+          <text class='tx2'>已经坚持瘦身123天</text>
+        </view>
+        <!-- 空白撑开 -->
+        <view class='nothing'></view>
+
+        <view class='dianzan-list'>
+          <image class='good' src='/images/white_good.png'></image>
+          <text>3235</text>
+        </view>
+      </view>
+
+    </view>
+
+
+
+     <view class='list-item'>
+      <view class='items'>
+        <text class='text-number'>4</text>
+        <image class='mini-img' src='/images/0.jpg'></image>
+        <view class='message'>
+          <text class='tx1'>画虎烂</text>
+          <text class='tx2'>已经坚持瘦身123天</text>
+        </view>
+        <!-- 空白撑开 -->
+        <view class='nothing'></view>
+
+        <view class='dianzan-list'>
+          <image class='good' src='/images/white_good.png'></image>
+          <text>3235</text>
+        </view>
+      </view>
+
+    </view>
+
+
+
+
+     <view class='list-item'>
+      <view class='items'>
+        <text class='text-number'>4</text>
+        <image class='mini-img' src='/images/0.jpg'></image>
+        <view class='message'>
+          <text class='tx1'>画虎烂</text>
+          <text class='tx2'>已经坚持瘦身123天</text>
+        </view>
+        <!-- 空白撑开 -->
+        <view class='nothing'></view>
+
+        <view class='dianzan-list'>
+          <image class='good' src='/images/white_good.png'></image>
+          <text>3235</text>
+        </view>
+      </view>
+
+    </view>
+
+
+
+
+     <view class='list-item'>
+      <view class='items'>
+        <text class='text-number'>4</text>
+        <image class='mini-img' src='/images/0.jpg'></image>
+        <view class='message'>
+          <text class='tx1'>画虎烂</text>
+          <text class='tx2'>已经坚持瘦身123天</text>
+        </view>
+        <!-- 空白撑开 -->
+        <view class='nothing'></view>
+
+        <view class='dianzan-list'>
+          <image class='good' src='/images/white_good.png'></image>
+          <text>3235</text>
+        </view>
+      </view>
+
+    </view>
+
+
+
+     <view class='list-item'>
+      <view class='items'>
+        <text class='text-number'>4</text>
+        <image class='mini-img' src='/images/0.jpg'></image>
+        <view class='message'>
+          <text class='tx1'>画虎烂</text>
+          <text class='tx2'>已经坚持瘦身123天</text>
+        </view>
+        <!-- 空白撑开 -->
+        <view class='nothing'></view>
+
+        <view class='dianzan-list'>
+          <image class='good' src='/images/white_good.png'></image>
+          <text>3235</text>
+        </view>
+      </view>
+
+    </view>
+
+
+     <view class='list-item'>
+      <view class='items'>
+        <text class='text-number'>4</text>
+        <image class='mini-img' src='/images/0.jpg'></image>
+        <view class='message'>
+          <text class='tx1'>画虎烂</text>
+          <text class='tx2'>已经坚持瘦身123天</text>
+        </view>
+        <!-- 空白撑开 -->
+        <view class='nothing'></view>
+
+        <view class='dianzan-list'>
+          <image class='good' src='/images/white_good.png'></image>
+          <text>3235</text>
+        </view>
+      </view>
+
+    </view>
+
+
+     <view class='list-item'>
+      <view class='items'>
+        <text class='text-number'>900</text>
+        <image class='mini-img' src='/images/0.jpg'></image>
+        <view class='message'>
+          <text class='tx1'>画虎烂</text>
+          <text class='tx2'>已经坚持瘦身123天</text>
+        </view>
+        <!-- 空白撑开 -->
+        <view class='nothing'></view>
+
+        <view class='dianzan-list'>
+          <text>未上榜</text>
+        </view>
+      </view>
+
+    </view>
+
+
+  </scroll-view>
+
+
+
+
+</view>
