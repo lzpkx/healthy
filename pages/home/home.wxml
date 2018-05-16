@@ -1,0 +1,104 @@
+<view class='home'>
+  <!--天气BIM排行  -->
+  <view class='top-container'>
+    <!-- BIM -->
+    <view class='BIM-date'>
+      <text class='bt1' selectable='true'>17.6</text>
+      <text class='bt2'>BIM</text>
+    </view>
+    <!-- 天气时间 -->
+    <view class='weather-date-container'>
+      <text class='wt1'>26℃~37℃</text>
+      <text class='wt2'>05月16日 星期三 晴</text>
+    </view>
+
+    <!-- 排行 -->
+    <view class='rankings'>
+      <image class='rank-img' src='/images/ranking.png'></image>
+      <text class='rt'>排行榜</text>
+    </view>
+  </view>
+
+  <!--进度条  -->
+  <view class='progress-container'>
+    <progress percent="80" show-info active stroke-width="6" color="#20A0FF" />
+  </view>
+
+  <!--任务块  -->
+  <view class='content-container'>
+    <swiper class='task-swiper' skip-hidden-item-layout='true' duration='200'>
+
+      <swiper-item>
+        <view class='s-item1'>
+          <image class='project-img' src='/images/fjt.jpg'></image>
+          <!-- 任务项目 -->
+          <view class='project-item'>
+
+
+
+            <movable-area style="height: 100%; width: 100%;">
+              <movable-view style="height: 50px; width: 50px;" x="{{x}}" y="{{y}}" direction="all"   catchtouchend='bchange'>
+                <image style='width:88rpx;height:88rpx;' src='/images/run.png'></image>
+              </movable-view>
+
+              <movable-view style="height: 50px; width: 50px;" x="{{x}}" y="{{y}}" direction="all">
+                <image style='width:88rpx;height:88rpx;' src='/images/water.png'></image>
+              </movable-view>
+
+              <movable-view style="height: 50px; width: 50px;" x="{{x}}" y="{{y}}" direction="all">
+                <image style='width:88rpx;height:88rpx;' src='/images/eat.png'></image>
+              </movable-view>
+
+              <movable-view style="height: 50px; width: 50px;" x="{{x}}" y="{{y}}" direction="all">
+                <image style='width:88rpx;height:88rpx;' src='/images/eatok.png'></image>
+              </movable-view>
+
+
+              <movable-view style="height: 50px; width: 50px;" x="{{x}}" y="{{y}}" direction="all">
+                <image style='width:88rpx;height:88rpx;' src='/images/runok.png'></image>
+              </movable-view>
+
+<movable-view style="height: 50px; width: 50px;" x="{{x}}" y="{{y}}" direction="all">
+                <image style='width:88rpx;height:88rpx;' src='/images/waterok.png'></image>
+              </movable-view>
+
+
+            </movable-area>
+
+
+
+
+          </view>
+
+          <button class='qiandao-btn' hover-class='qiandao-ok-btn'>完成</button>
+
+        </view>
+      </swiper-item>
+
+      <swiper-item>
+        <view class='s-item2'>
+          <image class='project-img' src='/images/fjt2.jpg'></image>
+          <!-- 任务项目 -->
+          <view class='project-item'>
+          </view>
+
+          <button class='qiandao-btn' disabled='true'>完成</button>
+        </view>
+      </swiper-item>
+
+      <swiper-item>
+        <view class='s-item3'>
+          <image class='project-img' src='/images/fjt3.jpg'></image>
+          <!-- 任务项目 -->
+          <view class='project-item'>
+          </view>
+
+          <button class='qiandao-btn' disabled='true'>完成</button>
+        </view>
+      </swiper-item>
+    </swiper>
+
+  </view>
+
+
+</view>

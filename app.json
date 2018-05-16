@@ -1,15 +1,48 @@
 {
-  "pages":[
-    
+  "pages": [
+    "pages/home/home",
+    "pages/project/project",
+    "pages/article/article",
+    "pages/me/me",
     "pages/rank/rank",
+
+    
+    "pages/flybird/flybird",
     "pages/index/index",
     "pages/logs/logs",
     "pages/test/test"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/homeok.png"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "text": "项目",
+        "iconPath": "/images/project.png",
+        "selectedIconPath": "/images/projectok.png"
+      },
+      {
+        "pagePath": "pages/article/article",
+        "text": "知识",
+        "iconPath": "/images/article.png",
+        "selectedIconPath": "/images/articleok.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "个人",
+        "iconPath": "/images/me.png",
+        "selectedIconPath": "/images/meok.png"
+      }
+    ]
   }
 }

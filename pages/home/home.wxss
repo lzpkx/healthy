@@ -1,0 +1,153 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 5rpx;
+  align-items: center;
+}
+
+/* BIM */
+
+.BIM-date {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  background-color: #fff;
+}
+
+.bt1 {
+  color: #ff2516;
+  font-weight: bold;
+  font-size: 40rpx;
+}
+
+.bt2 {
+  color: #666;
+  font-size: 18rpx;
+}
+
+/* 天气时间 */
+
+.weather-date-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wt1 {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.wt2 {
+  font-size: 20rpx;
+  color: #666;
+}
+
+/* 排行榜 */
+
+.rankings {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.rank-img {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.rt {
+  font-size: 20rpx;
+  color: #666;
+}
+
+/* 进度条 */
+
+.progress-container {
+  width: 90%;
+  margin: 10rpx auto;
+}
+
+/* 任务块 */
+
+.task-swiper {
+  width: 96%;
+  height: 950rpx;
+  margin: 10rpx auto;
+}
+
+.s-item1 {
+  width: 94%;
+  height: 930rpx;
+  background-color: #fff;
+  margin: 10rpx auto;
+  border-radius: 10rpx;
+  box-shadow: 0 0 8rpx 2rpx rgba(0, 0, 0, 0.35);
+}
+
+.project-img {
+  border-radius: 10rpx;
+  width: 100%;
+  height: 350rpx;
+}
+
+.project-item {
+  box-shadow: inset 0 0 7rpx 7rpx #ccc;
+  border-radius: 10rpx;
+  width: 96%;
+  margin: 10rpx auto;
+  height: 430rpx;
+}
+
+/* 签到按钮 */
+
+.qiandao-btn {
+  font-weight: bold;
+  width: 96%;
+  margin: 20rpx auto;
+  color: #fff;
+  background-color: #20a0ff;
+}
+
+.qiandao-ok-btn {
+  font-weight: bold;
+  width: 96%;
+  margin: 20rpx auto;
+  color: #000;
+  background-color: #ccc;
+}
+
+.s-item2 {
+  width: 94%;
+  height: 930rpx;
+  background-color: #fff;
+  margin: 10rpx auto;
+  border-radius: 10rpx;
+  box-shadow: 0 0 8rpx 2rpx rgba(0, 0, 0, 0.35);
+}
+
+.s-item3 {
+  width: 94%;
+  height: 930rpx;
+  background-color: #fff;
+  margin: 10rpx auto;
+  border-radius: 10rpx;
+  box-shadow: 0 0 8rpx 2rpx rgba(0, 0, 0, 0.35);
+}
